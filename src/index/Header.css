@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Fredoka+One');
 header {
     margin-bottom: 2rem;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url("https://images.pexels.com/photos/347134/pexels-photo-347134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center; 
+    background-size: cover; 
+    height: 300px; 
+    width: 100%;
 }
 h2 {
     font-family: 'Fredoka One', cursive;

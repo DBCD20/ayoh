@@ -8,7 +8,7 @@ class Post extends Component {
         return(
             <div className='container-fluid py-2'>
                 <article className='bg-light container p-3 my-2'>
-                    <img src={img} />
+                    <div className='wrapImg'><img src={img} /></div>
                     <h4 className='py-1 my-0'>{title}</h4>
                     <p className='p-0 author'><em>by {author}</em></p>
                     <p> {teaser} </p>

@@ -2,13 +2,15 @@
 
 h1 {
     font-family: 'Ultra', serif;
+    font-size:2.4em !important;
     color: #1CB0BC !important;
+    margin: 0;
 }
-.nav-item {
+.nav-item  {
     transition: 0.2s ease-in-out;
 }
-.nav-item:hover {
-    background: linear-gradient(to right, #000428, #50CBCB);
+li.nav-item:hover {
+    background: #50CBCB;
     cursor: pointer;
     color: white !important;
     border-left: 10px solid white;

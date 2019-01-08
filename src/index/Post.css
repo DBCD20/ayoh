@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Concert+One');
 img {
     max-width: 100%;
+    transition: 0.2s ease-in-out;
+}
+img:hover {
+    cursor: pointer;
+    transform: scale(1.07);
 }
 h4 {
     font-family: 'Concert One', cursive;
     font-size: 2em;
+}
+.wrapImg {
+    overflow: hidden !important;
+    
+
 }
 .author {
 color: #A0A6A3;
