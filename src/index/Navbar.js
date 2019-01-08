@@ -5,7 +5,7 @@ class Navbar extends Component {
     render(){
         return(
             <nav className='navbar navbar-expand-lg navbar-light shadow' >
-                <h1 className='navbar-brand text-dark'>Hello</h1>
+                <h1 className='navbar-brand'>Hello</h1>
                 <button className='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

@@ -1,0 +1,11 @@
+footer ul {
+    padding-left: 0;
+}
+footer li {
+    padding: 0.2em;
+    border-bottom: 0.5px dotted gray;
+    font-weight: 100;
+}
+footer li:hover {
+    cursor: pointer;
+}
