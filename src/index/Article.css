@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Fredoka+One');
+
+h3 {
+    font-family: 'Fredoka One', cursive;
+    border-bottom: 0.5px solid lightgrey;
+}

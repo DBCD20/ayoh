@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Ultra');
+
+h1 {
+    font-family: 'Ultra', serif;
+    background: linear-gradient(to right, #6441A5 0%, #2a0845 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-item {
+    background: linear-gradient(to right, #6441A5 0%, #2a0845 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.35s ease-in-out;
+}
+.nav-item:hover {
+    background: linear-gradient(to right, #000428, #004e92);
+    cursor: pointer;
+    -webkit-text-fill-color: white;
+    border-left: 10px solid white;
+    
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Concert+One');
+img {
+    max-width: 100%;
+}
+h4 {
+    font-family: 'Concert One', cursive;
+}
+.author {
+    background: linear-gradient(to right, #ff00cc 0%, #333399 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 0.8rem;
+}
+p {
+    font-family: 'Barlow', sans-serif;
+   
+}

@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Fredoka+One');
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+}
+p {
+    font-family: 'Barlow', sans-serif;
+}
