@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow|Fredoka+One');
-
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
 h3 {
-    font-family: 'Fredoka One', cursive;
-    font-size: 2.5rem;
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.08em;
+    text-decoration: underline;
 }

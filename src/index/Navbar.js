@@ -9,15 +9,15 @@ class Navbar extends Component {
                 <button className='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div className='collapse navbar-collapse' id='navbarNav'>
+                <div className='collapse navbar-collapse py-3' id='navbarNav'>
                     <ul className='navbar-nav mr-auto pb-2'>
-                        <li className='nav-item p-2 text-dark'>Home</li>
-                        <li className='nav-item p-2 text-dark'>About Us</li>
-                        <li className='nav-item p-2 text-dark'>Contact Us</li>
-                        <li className='nav-item p-2 text-dark'>Free List</li>
+                        <li className='nav-item mx-3 text-dark'>Home</li>
+                        <li className='nav-item mx-3 text-dark'>About Us</li>
+                        <li className='nav-item mx-3 text-dark'>Contact Us</li>
+                        <li className='nav-item mx-3 text-dark'>Free List</li>
                         
                     </ul>
-                    <button className='btn btn-block bg-warning nav-item p-2 text-white'data-toggle="modal" data-target="#exampleModal"><b>Log in</b></button>
+                    <button className='btn nav-item p-2 text-white'data-toggle="modal" data-target="#exampleModal"><b>Log in</b></button>
                 </div>
                 
             </nav>

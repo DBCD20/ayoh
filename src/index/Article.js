@@ -1,29 +1,31 @@
 import React, { Component } from 'react';
 import './Article.css';
 import Post from './Post';
+import OtherPost from './OtherPost.js';
 
 const Props =  [{
     img: 'https://images.pexels.com/photos/936611/pexels-photo-936611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    title: 'Coffeenated',
-    author: 'Cream Decaffeinated',
-    teaser: 'As decaffeinated, galão crema brewed eu trifecta aftertaste to go. So pumpkin spice latte café au lait cream plunger pot aromatic.'
+    title: 'So pumpkin spice latte café au lait cream plunger pot aromatic',
+    author: 'Cream Decaffeinated'
 },{
     img: 'https://images.pexels.com/photos/1089550/pexels-photo-1089550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    title: 'Medical Records',
-    author: 'Cream Decaffeinated',
-    teaser: 'As decaffeinated, galão crema brewed eu trifecta aftertaste to go. So pumpkin spice latte café au lait cream plunger pot aromatic.'
+    title: 'As decaffeinated, galão crema brewed eu trifecta aftertaste to go',
+    author: 'Cream Decaffeinated'
 },
 {
     img: 'https://images.pexels.com/photos/1587648/pexels-photo-1587648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     title: 'Fat away!',
-    author: 'Cream Decaffeinated',
-    teaser: 'As decaffeinated, galão crema brewed eu trifecta aftertaste to go. So pumpkin spice latte café au lait cream plunger pot aromatic.'
+    author: 'Cream Decaffeinated'
 },
 {
     img: 'https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    title: 'Biologic Research',
-    author: 'Cream Decaffeinated',
-    teaser: 'As decaffeinated, galão crema brewed eu trifecta aftertaste to go. So pumpkin spice latte café au lait cream plunger pot aromatic.'
+    title: 'Crema brewed eu trifecta aftertaste to go',
+    author: 'Cream Decaffeinated'
+},
+{
+    img: 'https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    title: 'Crema brewed eu trifecta aftertaste to go',
+    author: 'Cream Decaffeinated'
 }
 ];
 class Article extends Component {
@@ -33,11 +35,16 @@ class Article extends Component {
 
         
         return(
-            <div className='container-fluid'>
-                <h3 className='p-3 text-center'>Blogs</h3>
-                {Props.map((obj) => (<Post {...obj} />))}
+            <div className='row p-0 m-0'>
+            <div className='col-lg-8 py-4'>
+                <div className='container d-flex flex-md-row flex-wrap justify-content-md-center justify-content-lg-start p-4'>
+                    {Props.map((obj) => (<Post {...obj} />))}
+                </div>
             </div>
-            
+            <div className='col-lg-3'>
+                <OtherPost />
+            </div>
+            </div>
         )
     }
 }

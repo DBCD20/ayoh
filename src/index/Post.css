@@ -1,17 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow|Concert+One');
+@import url('https://fonts.googleapis.com/css?family=Barlow|News+Cycle');
+article {
+    max-width: 500px;
+}
 img {
     max-width: 100%;
     transition: 0.2s ease-in-out;
 }
-img:hover {
+article img:hover {
     cursor: pointer;
     transform: scale(1.07);
 }
 h4 {
-    font-family: 'Concert One', cursive;
+    font-family: 'News Cycle', sans-serif;
     font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
 }
 .wrapImg {
+    height: 280px;
     overflow: hidden !important;
     
 
@@ -23,5 +29,50 @@ color: #A0A6A3;
 p {
     font-family: 'Barlow', sans-serif;
     color: #8A8887;
+    font-size: 0.8rem;
+    
    
+}
+
+@media (min-width: 992px){
+    article {
+        flex: 40% 1;
+        max-width: 600px;
+    }
+    article h4 {
+        font-size: 1.5em;
+    }
+    article .wrapImg {
+        height: 180px;
+    }
+    article:first-child {
+        max-width: 100%;
+        flex: 100% 1;
+    }
+    article:first-child .wrapImg {
+        height: 420px;
+    }
+    article:first-child h4 {
+        max-width: 500px;
+        font-size: 2em;
+    }
+    article:last-child {
+        align-self: flex-start
+    }
+}
+@media(min-width: 1500px){
+    article {
+        flex: 30% 1;
+        max-width: 500px;
+    }
+    article .wrapImg {
+        height: 210px;
+    }
+    article:first-child .wrapImg {
+        height: 610px;
+    }
+    article:last-child {
+        flex: 100% 1;
+        max-width: 420px;
+    }
 }

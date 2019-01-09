@@ -1,15 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow|Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Abel|Major+Mono+Display|Staatliches');
 header {
     margin-bottom: 2rem;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url("https://images.pexels.com/photos/347134/pexels-photo-347134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center; 
+    position: relative;
+    background: linear-gradient(-45deg,#00c4cc,#7d1ae8); 
     background-size: cover; 
-    height: 300px; 
+    height: 400px; 
     width: 100%;
+    transition: 0.2s ease-in-out;
 }
 h2 {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Major Mono Display', monospace;
     font-size: 3.2em;
 }
+header h3 {
+    font-size: 1.9em;
+    text-decoration: none;
+}
 p {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+header img {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 500px;
+    }
+    header img {
+        width: 550px;
+        display: inline-block;
+        position: absolute;
+        right: -2em;
+        bottom: 2em;
+
+}
+
+}
+@media (min-width: 1200px){
+    h2 {
+        font-size: 5rem;
+    }
+    header h3 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1.4rem;
+        font-weight: 100;
+    }
+    header {
+        height: 600px;
+    }
+    header img {
+        width: 650px;
+    }
 }

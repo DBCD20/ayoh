@@ -3,3 +3,11 @@
 h5 {
     font-family: 'Economica', sans-serif;
 }
+@media(min-width: 1500px){
+    h5 {
+        font-size: 2em;
+    }  
+}
+section article {
+    padding-left: 3em;
+}

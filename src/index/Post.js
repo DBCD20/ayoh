@@ -6,14 +6,11 @@ class Post extends Component {
         const {img, title, author, teaser} = this.props;
 
         return(
-            <div className='container-fluid py-2'>
-                <article className='bg-light container p-3 my-2'>
+                <article className='bg-light m-3 p-0'>
                     <div className='wrapImg'><img src={img} /></div>
-                    <h4 className='py-1 my-0'>{title}</h4>
-                    <p className='p-0 author'><em>by {author}</em></p>
-                    <p> {teaser} </p>
+                    <h4 className='p-2 my-0'>{title}</h4>
+                    <p className='p-0 px-2 author'><em>by {author}</em></p>
                 </article>
-            </div>
         )
     }
 }

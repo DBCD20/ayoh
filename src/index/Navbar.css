@@ -2,18 +2,41 @@
 
 h1 {
     font-family: 'Ultra', serif;
-    font-size:2.4em !important;
+    font-size:2.2em !important;
     color: #1CB0BC !important;
     margin: 0;
 }
-.nav-item  {
+li.nav-item  {
     transition: 0.2s ease-in-out;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #6f42c1 !important;
 }
+
 li.nav-item:hover {
-    background: #50CBCB;
     cursor: pointer;
-    color: white !important;
-    border-left: 10px solid white;
-    font-weight: 700;
+    color: orange !important;
+}
+nav button:last-child {
+    background-color: #2098d3;
+
+}
+@media (max-width: 767px){
+    li.nav-item {
+        padding: 0.5em;
+    }
+    li.nav-item:hover {
+        background: #50CBCB;
+        cursor: pointer;
+        color: white !important;
+        border-left: 10px solid white;
+        font-weight: 700;
+    }
+    nav button:last-child {
+        width: 100%;
+        display: inline-block;
+        background: #8f2afc;
     
+    }
 }

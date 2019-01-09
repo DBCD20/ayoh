@@ -14,7 +14,6 @@ class App extends Component {
                 <Login />
                 <Header />
                 <Article />
-                <OtherPost />
                 <Footer />
             </div>
         )
