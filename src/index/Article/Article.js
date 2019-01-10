@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Article.css';
-import Post from './Post';
-import OtherPost from './OtherPost.js';
+import Post from '../Post/Post';
+import OtherPost from '../OtherPost/OtherPost.js';
 
 const Props =  [{
     img: 'https://images.pexels.com/photos/936611/pexels-photo-936611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -31,17 +31,15 @@ const Props =  [{
 class Article extends Component {
 
 
-    render(){
-
-        
+    render(){       
         return(
-            <div className='row p-0 m-0'>
+            <div className='row p-0 m-0 mx-auto' style={{maxWidth: '1400px'}}>
             <div className='col-lg-8 py-4'>
                 <div className='container d-flex flex-md-row flex-wrap justify-content-md-center justify-content-lg-start p-4'>
                     {Props.map((obj) => (<Post {...obj} />))}
                 </div>
             </div>
-            <div className='col-lg-3'>
+            <div className='col-lg-4'>
                 <OtherPost />
             </div>
             </div>

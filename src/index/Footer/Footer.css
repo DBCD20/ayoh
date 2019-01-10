@@ -4,30 +4,32 @@ footer ul {
 }
 footer li {
     padding: 0.2em;
-    border-bottom: 0.5px dotted gray;
+    border-bottom: 0.1px solid #04447f;
     font-weight: 100;
+}
+footer li:last-child {
+    border-bottom: none;
 }
 footer li:hover {
     cursor: pointer;
 }
 
-ul {
+footer ul {
     padding: 0;
     margin: 0;
 }
 
-.social {
+footer .social {
     color: #06559e;
     background: white;
     display: inline-block;
-    font-size: 1.8em;
-    padding: 0.2em;
-    width: 50px;
+    font-size: 1.2em;
+    width: 32px;
     text-align: center;
-    margin: 0.5em;
-    border-radius: 7px;
+    margin: 0.1em;
+    border-radius: 4px;
 }
-h5 {
+footer h5 {
     font-family: 'Economica', sans-serif;
 }
 @media(min-width: 1500px){

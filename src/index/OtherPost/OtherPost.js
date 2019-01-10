@@ -3,7 +3,7 @@ import './OtherPost.css'
 class OtherPost extends Component {
     render(){
         return (
-            <section className='container-fluid py-4'>
+            <section className='py-4'>
                 <h3 className='text-center p-2'>Other Posts</h3>
             <div className='container'>
                 <article className='py-4' style={{borderBottom: '0.5px solid #D6DDDB'}}>

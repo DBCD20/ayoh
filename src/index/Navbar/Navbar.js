@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Navbar.css';
-import Login from './Login';
+import Login from '../Login/Login';
 class Navbar extends Component {
     render(){
         return(
@@ -11,13 +11,13 @@ class Navbar extends Component {
                 </button>
                 <div className='collapse navbar-collapse py-3' id='navbarNav'>
                     <ul className='navbar-nav mr-auto pb-2'>
-                        <li className='nav-item mx-3 text-dark'>Home</li>
-                        <li className='nav-item mx-3 text-dark'>About Us</li>
-                        <li className='nav-item mx-3 text-dark'>Contact Us</li>
-                        <li className='nav-item mx-3 text-dark'>Free List</li>
+                        <li className='nav-item mx-3 p-2 text-dark'>Home</li>
+                        <li className='nav-item mx-3 p-2 text-dark'>About Us</li>
+                        <li className='nav-item mx-3 p-2 text-dark'>Contact Us</li>
+                        <li className='nav-item mx-3 p-2 text-dark'>Free List</li>
                         
                     </ul>
-                    <button className='btn nav-item p-2 text-white'data-toggle="modal" data-target="#exampleModal"><b>Log in</b></button>
+                    <button className='btn btn-primary nav-item p-2 text-white'data-toggle="modal" data-target="#exampleModal"><b>Log in</b></button>
                 </div>
                 
             </nav>

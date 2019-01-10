@@ -16,8 +16,11 @@ header h3 {
     font-size: 1.9em;
     text-decoration: none;
 }
-p {
+header p {
+    max-width: 500px;
     font-family: 'Staatliches', cursive;
+    text-align: justify;
+    font-weight: 100 !important;
 }
 
 header img {

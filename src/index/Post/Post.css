@@ -1,77 +1,87 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|News+Cycle');
-article {
+.post {
     max-width: 500px;
 }
-img {
+.post img {
     max-width: 100%;
     transition: 0.2s ease-in-out;
 }
-article img:hover {
+.post img:hover {
     cursor: pointer;
     transform: scale(1.07);
 }
-h4 {
+.post h4 {
     font-family: 'News Cycle', sans-serif;
-    font-size: 2em;
+    font-size: 1.3em;
     font-weight: 400;
     letter-spacing: 0.05em;
 }
-.wrapImg {
-    height: 280px;
+.post .wrapImg {
+    max-height: 200px;
     overflow: hidden !important;
-    
-
 }
-.author {
+.post .author {
 color: #A0A6A3;
     font-size: 0.8rem;
 }
-p {
+.post p {
     font-family: 'Barlow', sans-serif;
     color: #8A8887;
     font-size: 0.8rem;
-    
-   
+     
 }
 
-@media (min-width: 992px){
-    article {
-        flex: 40% 1;
-        max-width: 600px;
-    }
-    article h4 {
-        font-size: 1.5em;
-    }
-    article .wrapImg {
-        height: 180px;
-    }
-    article:first-child {
+@media(min-width: 844px){
+.post {
+    flex: 40%;
+}
+.post:first-child {
         max-width: 100%;
         flex: 100% 1;
     }
-    article:first-child .wrapImg {
+.post:first-child .wrapImg {
+        max-height: 500px;
+    }
+}
+
+@media (min-width: 992px){
+.post {
+        flex: 40% 1;
+        max-width: 600px;
+    }
+.post h4 {
+        font-size: 1.5em;
+    }
+.post .wrapImg {
+        height: 180px;
+    }
+.post:first-child {
+        max-width: 100%;
+        flex: 100% 1;
+    }
+.post:first-child .wrapImg {
         height: 420px;
     }
-    article:first-child h4 {
+.post:first-child h4 {
         max-width: 500px;
         font-size: 2em;
     }
-    article:last-child {
+.post:last-child {
         align-self: flex-start
     }
 }
 @media(min-width: 1500px){
-    article {
+.post {
         flex: 30% 1;
         max-width: 500px;
     }
-    article .wrapImg {
+.post .wrapImg {
         height: 210px;
     }
-    article:first-child .wrapImg {
+.post:first-child .wrapImg {
         height: 610px;
     }
-    article:last-child {
+.post:last-child {
         flex: 100% 1;
         max-width: 420px;
     }
