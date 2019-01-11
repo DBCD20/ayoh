@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ultra');
-
+nav {
+    background: white;
+}
 nav h1 {
     font-family: 'Ultra', serif;
     font-size:2.2em !important;

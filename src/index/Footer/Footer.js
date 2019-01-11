@@ -24,7 +24,7 @@ class Footer extends Component {
                     <label for='' className='text-light'>Subscribe to our weekly newsletter</label>
                     <form className="form-inline my-2 my-lg-0">
                         <input className="form-control mr-sm-2" type="search" placeholder="JanDoe@gmail.com" />
-                        <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Submit</button>
+                        <button className="btn btn-primary my-2 my-sm-0" type="submit">Submit</button>
                         </form>
                 </div>
                 <Social />

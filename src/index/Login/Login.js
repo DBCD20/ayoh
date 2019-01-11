@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
 
 class Login extends Component {
+
+    constructor(props){
+      super(props);
+      this.state = {
+        email: '',
+        password: ''
+      }
+    }
+
+    changeChar = () => {}
+
     render(){
         return (
 
@@ -14,7 +25,6 @@ class Login extends Component {
         <div className="form-group my-4">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-          <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div className="form-group mt-4">
           <label for="exampleInputPassword1">Password</label>

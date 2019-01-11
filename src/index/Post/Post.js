@@ -6,10 +6,10 @@ class Post extends Component {
         const {img, title, author, teaser} = this.props;
 
         return(
-                <article className='container post bg-light m-3 p-0'>
+                <article className='container shadow-sm post m-3 p-0' style={{background: 'white', color: '#235180'}}>
                     <div className='wrapImg'><img src={img} /></div>
-                    <h4 className='p-2 my-0'>{title}</h4>
-                    <p className='p-0 px-2 author'><em>by {author}</em></p>
+                    <h4 className='p-4 my-0'>{title}</h4>
+                    <p className='p-0 px-4 author'><em>by {author}</em></p>
                 </article>
         )
     }

@@ -26,6 +26,16 @@ const Props =  [{
     img: 'https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     title: 'Crema brewed eu trifecta aftertaste to go',
     author: 'Cream Decaffeinated'
+},
+{
+    img: 'https://images.pexels.com/photos/834872/pexels-photo-834872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    title: 'Crema brewed eu trifecta aftertaste to go',
+    author: 'Cream Decaffeinated'
+},
+{
+    img: 'https://images.pexels.com/photos/374860/pexels-photo-374860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    title: 'Crema brewed eu trifecta aftertaste to go',
+    author: 'Cream Decaffeinated'
 }
 ];
 class Article extends Component {

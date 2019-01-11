@@ -4,7 +4,7 @@ import './Header.css';
 class Header extends Component {
     render(){
         return(
-            <header className='bg-warning' style={{}}>
+            <header className='bg-warning shadow' style={{}}>
                 <div className='container-fluid'  style={{height: '100%'}}>
                     <div style={{maxWidth:'1200px', height: '100%', position: 'relative'}} className='mx-auto d-flex flex-column justify-content-center'>
                     <div className='col-md-5 align-self-start'>
